@@ -438,7 +438,7 @@ footer nav a {
 }
 
 
-@media (max-width: 800px) {
+@media(max-width: 800px) {
 
     nav {
 
@@ -598,4 +598,76 @@ footer nav a {
 }
 
 
-@media (max-width: 500px) {}
+@media(max-width: 500px) {
+    body{
+
+        width: 500px;
+    }
+
+    nav {
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    #links {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    #jumboImg {
+
+        align-content: center;
+
+        width: 100%;
+
+        padding: 0;
+
+        margin: 0;
+    }
+
+    .top-content .text-container {
+
+        align-items: center;
+
+        padding: 7rem;
+        margin: 0;
+
+    }
+
+    .boxes {
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    footer nav {
+
+        align-items: center;
+
+        justify-content: center;
+
+        padding: 0;
+
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
