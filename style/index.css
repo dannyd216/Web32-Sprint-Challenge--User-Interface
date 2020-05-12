@@ -446,6 +446,11 @@ footer nav a {
     text-decoration: none;
 }
 
+
+
+
+
+
 /*TABLET VIEW*/
 
 @media(max-width: 800px) {
@@ -546,7 +551,7 @@ footer nav a {
 
     /*BOXES*/
 
-    .middle-content{
+    .middle-content {
 
         border: 2px solid orange;
     }
@@ -559,7 +564,7 @@ footer nav a {
 
         flex-wrap: wrap; */
 
-        align-content: stretch;
+        /* align-content: stretch; */
 
         align-items: center;
 
@@ -569,19 +574,26 @@ footer nav a {
 
         margin: 4%;
 
+        width: 35%;
+
+
+
     }
 
     .middle-content .boxes .box {
 
+
         border: 2px solid red;
 
-        /* flex: 50%; */
+        /* display: flex; */
 
+        width: 40%;
 
+        flex-wrap: wrap;
 
-        /* margin: 10%; */
+        margin: 2%;
 
-
+        padding: 0;
 
 
 
@@ -699,19 +711,38 @@ footer nav a {
 
     footer nav {
 
+        align-items: center;
+
         justify-content: center;
 
         text-align: center;
 
+        display: flex;
+
+        /* justify-content: space-between; */
+
+        width: 100%;
+
     }
 
     footer nav a {
+
         font-size: 2rem;
 
-        padding: 1rem;
+        padding: 3%;
+
+        justify-content: center;
+
+        justify-content: space-between;
+
+        
+
+
+
     }
 
 }
+
 
 /*MOBILE VIEW*/
 
